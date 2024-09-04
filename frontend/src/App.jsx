@@ -8,10 +8,12 @@ import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 import Login from './pages/login/Login'
 import Registration from './pages/registration/Registration'
 import Tasks from './pages/tasks/Tasks'
+import Header from './assets/Header'
 
 function App() {
   return (
     <>
+      <Header/>
       <Router>
         <div className='container'>
           <Routes>

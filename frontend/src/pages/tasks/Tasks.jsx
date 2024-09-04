@@ -1,9 +1,11 @@
-import { Typography } from "@mui/material"
+import { Container, Typography } from "@mui/material"
 
 const Tasks = () => {
     return(
         <>
-            <Typography>Tasks Page</Typography>
+            <Container maxWidth='sm'>
+                <Typography>Tasks Page</Typography>
+            </Container>
         </>
     )
 }

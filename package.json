@@ -1,0 +1,25 @@
+{
+  "name": "tms",
+  "version": "1.0.0",
+  "description": "Task Management System",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akosialbean/tms.git"
+  },
+  "keywords": [
+    "tsm"
+  ],
+  "author": "Alvin Castor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akosialbean/tms/issues"
+  },
+  "homepage": "https://github.com/akosialbean/tms#readme",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
